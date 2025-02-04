@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-for-draggables::-webkit-scrollbar
+{
+    width: 10px;
+	background-color: #F5F5F5;
+}
+
+.container-for-draggables::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.container-for-draggables::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-clip: content-box;
+	background-color: #474747;
+}
+
+.container-for-draggables::-webkit-scrollbar-button{
+    display: none;
+}
+
+#copy{
+    position: absolute;
+    top: -150px
+}
+
+#draggable{
+    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, .35);
+    transition: translate 0.25s linear .25s;
+}
+
+.draggable-opaque{
+    opacity: 85%;
+    border: 2px dashed black;
+}
