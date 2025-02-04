@@ -37,9 +37,9 @@ export default function ContainerForDraggables({
         id={id}
         className="container-for-draggables px-10 py-3 gap-2 bg-slate-300 w-80 h-[600px] overflow-x-hidden overflow-y-scroll"
       >
-        <Draggable />
-        <Draggable />
-        <Draggable />
+        <Draggable >1</Draggable >
+        <Draggable >2</Draggable >
+        <Draggable >3</Draggable >
       </div>
     </div>
   );

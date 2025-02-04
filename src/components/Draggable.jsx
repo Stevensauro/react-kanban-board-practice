@@ -3,6 +3,7 @@ import { DraggablesContext } from "../store/draggables-context";
 
 export default function Draggable({
   className = "",
+  children,
   ...props
 }) {
   
@@ -132,7 +133,7 @@ export default function Draggable({
       draggable={true}
       {...props}
     >
-      xd
+      {children}
     </div>
   );
 }
