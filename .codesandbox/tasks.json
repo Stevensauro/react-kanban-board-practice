@@ -28,9 +28,6 @@
     "preview": {
       "name": "preview",
       "command": "npm run preview",
-      "preview": {
-        "port": 2222
-      }
     }
   }
 }
